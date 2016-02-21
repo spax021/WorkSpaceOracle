@@ -1,0 +1,2 @@
+# WorkSpaceOracle
+Vežbe sa sajta
