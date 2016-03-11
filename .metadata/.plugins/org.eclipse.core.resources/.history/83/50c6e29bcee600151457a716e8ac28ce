@@ -1,0 +1,8 @@
+package oopConcepts;
+
+public class Bottle {
+	
+	int zapremina = 2;
+	
+
+}

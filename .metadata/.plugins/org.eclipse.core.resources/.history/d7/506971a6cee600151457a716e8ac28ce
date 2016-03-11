@@ -1,0 +1,8 @@
+package oopConcepts;
+
+public class Bottle implements BottleInterface{
+	
+	int zapremina = 2;
+	
+
+}

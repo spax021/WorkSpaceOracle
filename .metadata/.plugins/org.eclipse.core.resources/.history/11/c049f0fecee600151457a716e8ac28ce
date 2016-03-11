@@ -1,0 +1,28 @@
+package oopConcepts;
+
+public class Bottle implements BottleInterface{
+	
+	int zapremina = 0;
+	boolean poklopac = true;
+
+	public boolean otvoreno(boolean cep) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	public int napuni(int kolicina) {
+		
+		
+		
+		return 0;
+	}
+
+	public int isprazni(int kolicina) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	
+
+}

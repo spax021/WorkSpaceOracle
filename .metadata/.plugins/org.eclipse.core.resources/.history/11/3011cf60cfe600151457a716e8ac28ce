@@ -1,0 +1,31 @@
+package oopConcepts;
+
+public class DemoBicycle {
+
+	public static void main(String[] args) {
+		
+		MountainBike bajs1 = new MountainBike();
+		AcmeBicycle bajs2 = new AcmeBicycle();
+		
+		bajs1.changeCadence(50);
+		bajs1.speedUp(20);
+		bajs1.speedUp(30);
+		bajs1.applyBrakes(25);
+		bajs1.printStates();
+		
+	}
+
+//	Real-world objects contain STATE and BEHAVIOR.
+//	A software object's state is stored in CLASS.
+//	A software object's behavior is exposed through METHODS.
+//	Hiding internal data from the outside world, and accessing it only through 
+//								publicly exposed methods is known as data ENCAPSULATION.
+//	A blueprint for a software object is called a CLASS.
+//	Common behavior can be defined in a SUPERCLASS and inherited into a SUBCLASS using the EXTENDS keyword.
+//	A collection of methods with no implementation is called an INTERFACE.
+//	A namespace that organizes classes and interfaces by functionality is called a PACKAGE.
+//	The term API stands for APPLICATION PROGRAMING INTERFACE?
+	
+	
+	
+}

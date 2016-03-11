@@ -1,0 +1,16 @@
+package oopConcepts;
+
+public class BottleMain extends Bottle{
+
+	public static void main(String[] args) {
+
+		Bottle flasa = new Bottle();
+		
+		flasa.napuni(5);
+		flasa.napuni(8);
+		flasa.napuni(4);
+		flasa.isprazni(6);
+		flasa.ispis();
+	}
+
+}

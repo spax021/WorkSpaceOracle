@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;Oracle&apos;&#x0D;&#x0A;- Original project: &apos;Oracle&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     oopConcepts.AcmeBicycle.java&#x0D;&#x0A;     oopConcepts.Bicycle.java&#x0D;&#x0A;     oopConcepts.DemoBicycle.java&#x0D;&#x0A;     oopConcepts.MountainBike.java" description="Delete elements" element1="/src&lt;oopConcepts{MountainBike.java" element2="/src&lt;oopConcepts{Bicycle.java" element3="/src&lt;oopConcepts{AcmeBicycle.java" element4="/src&lt;oopConcepts{DemoBicycle.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1457621406219" subPackages="false" version="1.0"/>
+</session>

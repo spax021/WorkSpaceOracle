@@ -1,0 +1,5 @@
+package oopConcepts;
+
+public class MountainBike extends AcmeBicycle{
+
+}

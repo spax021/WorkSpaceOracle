@@ -1,0 +1,21 @@
+package oopConcepts;
+
+public class DemoBicycle {
+
+	public static void main(String[] args) {
+		
+		MountainBike bajs1 = new MountainBike();
+		AcmeBicycle bajs2 = new AcmeBicycle();
+		
+		bajs1.changeCadence(50);
+		bajs1.speedUp(20);
+		bajs1.speedUp(30);
+		bajs1.applyBrakes(25);
+		bajs1.printStates();
+		
+		
+		
+		
+	}
+
+}

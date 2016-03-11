@@ -1,0 +1,5 @@
+package oopConcepts;
+
+public interface Bicycle {
+
+}

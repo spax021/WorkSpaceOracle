@@ -1,0 +1,26 @@
+package oopConcepts;
+
+public class Bottle implements BottleInterface{
+	
+	private int zapremina = 10;
+	private int voda = 0;
+
+	public void napuni(int kolicina) {
+		voda = voda + kolicina;
+		if()
+		
+	}
+
+	public void isprazni(int kolicina) {
+	
+		zapremina = zapremina - kolicina;
+	}
+
+	public void ispis() {
+		System.out.println("U flasi ima " + zapremina + " litara vode.");
+		
+	}
+	
+	
+
+}
