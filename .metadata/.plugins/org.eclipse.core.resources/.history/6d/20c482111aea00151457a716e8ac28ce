@@ -1,0 +1,17 @@
+package mojePiskarije;
+
+import java.util.Random;
+
+public class Od1do2000 {
+
+	public static void main(String[] args) {
+		
+		Random random = new Random(2000);
+		int i = random.nextInt();
+		
+		
+		System.out.println(i);
+		
+	}
+
+}

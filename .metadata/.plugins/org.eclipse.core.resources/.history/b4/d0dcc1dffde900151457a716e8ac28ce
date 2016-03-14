@@ -1,0 +1,21 @@
+package l2languageBasics;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int index = 0;
+		int broj = 100;
+		int[] rej = new int[10];
+		
+		for(int i=0; i<10; i++){
+			index++;
+			rej[index] += broj;
+			
+			System.out.println("Rej sa indexom " + index + " ima vrednost " + broj);
+		}
+		
+		
+	}
+
+}
