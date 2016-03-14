@@ -12,18 +12,11 @@ public class Od1do2000 {
 	static int brojac = 0;
 	static boolean pogodio = false;
 	
-	private static void ispisNo(){
+	private static void ispis(){
 		System.out.println("Program je sam generisao broj izmedju 1 i 2000");
 		System.out.println("Kad upisete broj i stisnete Enter, program ce Vam reci");
 		System.out.println("da li je broj manji ili veci.");
 		System.out.println("Imate 20 pokusaja da pogodite taj broj, srecno!");
-	}
-	
-	private static void ispisYes(){
-		System.out.println("Program je sam generisao broj izmedju 1 i 2000");
-		System.out.println("Kad upisete broj i stisnete Enter, program ce Vam reci");
-		System.out.println("da li je broj manji ili veci.");
-		System.out.println("Imate 10 pokusaja da pogodite taj broj, srecno!");
 	}
 	
 	private static void ispisVeci(){
@@ -40,7 +33,7 @@ public class Od1do2000 {
 		System.out.println(brojac + ". pokusaj");
 	}
 	
-	private static void proveraNo(){
+	private static void provera(){
 		
 		do{
 			brojac++;
@@ -66,51 +59,21 @@ public class Od1do2000 {
 			}while(!pogodio);
 	}
 	
-	private static void proveraYes(){
-		
-		do{
-			brojac++;
-			System.out.print("Vas broj: ");
-			unos = input.nextInt();
-			System.out.println();
-			
-			if(brojac == 10){
-				pogodio = true;
-				System.out.println("Zao mi je niste uspeli, trazeni broj je bio: " + i);
-			}
-			else if(i == unos){
-				pogodio = true;
-				System.out.println("Trazeni broj je: " + unos + " Svaka cast!");
-			}
-			else if(i > unos){
-				ispisVeci();
-			}
-			else{
-				ispisManji();
-			}
-			
-			}while(!pogodio);
-	}
-	
-	private static void proveraLucky(){
+	public static void main(String[] args) {
 		
 		String lucky;
+		String yes = "yes";
 		
 		System.out.print("Do you feel lucky? [yes/no]");
 		lucky = input.nextLine();
 		
-		if(lucky.equalsIgnoreCase("yes")){
-			ispisYes();
-			proveraYes();
+		if(lucky == yes){
+			ispis();
+			provera();
 		}
 		else{
-			ispisNo();
-			proveraNo();
+			System.out.println("End of program.");
 		}
-	}
-	public static void main(String[] args) {
-		
-		proveraLucky();
 		
 	}
 

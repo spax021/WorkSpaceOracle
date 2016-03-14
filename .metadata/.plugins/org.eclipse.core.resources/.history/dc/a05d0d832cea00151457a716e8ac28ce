@@ -91,23 +91,7 @@ public class Od1do2000 {
 			
 			}while(!pogodio);
 	}
-	
-	private static void proveraLucky(){
-		
-		String lucky;
-		
-		System.out.print("Do you feel lucky? [yes/no]");
-		lucky = input.nextLine();
-		
-		if(lucky.equalsIgnoreCase("yes")){
-			ispisYes();
-			proveraYes();
-		}
-		else{
-			ispisNo();
-			proveraNo();
-		}
-	}
+
 	public static void main(String[] args) {
 		
 		proveraLucky();

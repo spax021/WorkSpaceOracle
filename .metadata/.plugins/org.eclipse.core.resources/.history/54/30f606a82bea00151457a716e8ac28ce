@@ -12,18 +12,11 @@ public class Od1do2000 {
 	static int brojac = 0;
 	static boolean pogodio = false;
 	
-	private static void ispisNo(){
+	private static void ispis(){
 		System.out.println("Program je sam generisao broj izmedju 1 i 2000");
 		System.out.println("Kad upisete broj i stisnete Enter, program ce Vam reci");
 		System.out.println("da li je broj manji ili veci.");
 		System.out.println("Imate 20 pokusaja da pogodite taj broj, srecno!");
-	}
-	
-	private static void ispisYes(){
-		System.out.println("Program je sam generisao broj izmedju 1 i 2000");
-		System.out.println("Kad upisete broj i stisnete Enter, program ce Vam reci");
-		System.out.println("da li je broj manji ili veci.");
-		System.out.println("Imate 10 pokusaja da pogodite taj broj, srecno!");
 	}
 	
 	private static void ispisVeci(){
@@ -92,7 +85,7 @@ public class Od1do2000 {
 			}while(!pogodio);
 	}
 	
-	private static void proveraLucky(){
+	public static void main(String[] args) {
 		
 		String lucky;
 		
@@ -100,17 +93,12 @@ public class Od1do2000 {
 		lucky = input.nextLine();
 		
 		if(lucky.equalsIgnoreCase("yes")){
-			ispisYes();
 			proveraYes();
 		}
 		else{
-			ispisNo();
+			ispis();
 			proveraNo();
 		}
-	}
-	public static void main(String[] args) {
-		
-		proveraLucky();
 		
 	}
 

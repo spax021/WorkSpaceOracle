@@ -108,9 +108,10 @@ public class Od1do2000 {
 			proveraNo();
 		}
 	}
+	
 	public static void main(String[] args) {
 		
-		proveraLucky();
+
 		
 	}
 

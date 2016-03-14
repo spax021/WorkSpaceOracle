@@ -92,7 +92,7 @@ public class Od1do2000 {
 			}while(!pogodio);
 	}
 	
-	private static void proveraLucky(){
+	public static void proveraLucky(){
 		
 		String lucky;
 		

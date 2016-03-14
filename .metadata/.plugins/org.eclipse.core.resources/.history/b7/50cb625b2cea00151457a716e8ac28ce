@@ -1,0 +1,22 @@
+package mojePiskarije;
+
+public class Provera {
+	
+	private void proveraLucky(){
+		
+		String lucky;
+		
+		System.out.print("Do you feel lucky? [yes/no]");
+		lucky = input.nextLine();
+		
+		if(lucky.equalsIgnoreCase("yes")){
+			ispisYes();
+			proveraYes();
+		}
+		else{
+			ispisNo();
+			proveraNo();
+		}
+	}
+	
+}
