@@ -1,0 +1,19 @@
+package mojePiskarije;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class ArrayAndMap {
+
+	public static void main(String[] args) {
+		
+		ArrayList[] lista = new ArrayList[10];
+		HashMap[] mapa = new HashMap[10];
+		
+		
+		
+		
+		
+	}
+
+}

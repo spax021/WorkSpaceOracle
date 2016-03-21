@@ -1,0 +1,24 @@
+package l6Objects;
+
+public class Spil {
+
+    public static int znakovi = 4;
+    public static int brojevi = 13;
+
+    private Karta[][] karte;
+    
+    public void spil(){
+    	karte = new Karta[znakovi][brojevi];
+    	
+    	for(int znak = 1; znak <= znakovi; znak++){
+    		for(int broj = 1; broj<=brojevi; broj++){
+    			karte[znak][broj] = new Karta(znak, broj);
+    		}
+    	}
+    }
+
+    public Karta pokaziKartu(int znak, int broj){
+    	return karte[znak][broj];
+    }
+ 
+}

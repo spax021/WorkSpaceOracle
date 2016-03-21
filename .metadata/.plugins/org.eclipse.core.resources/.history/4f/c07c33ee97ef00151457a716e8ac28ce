@@ -1,0 +1,5 @@
+package l8Interface;
+
+public interface RelaTable {
+	public int isLargerThan(Relatable other);
+}

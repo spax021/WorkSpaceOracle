@@ -1,0 +1,33 @@
+package mojePiskarije;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class ArrayAndMap {
+
+	public static void main(String[] args) {
+		
+		ArrayList[] lista = new ArrayList[10];
+		HashMap[] mapa = new HashMap[10];
+		
+		mapa[0].put("firstname", "Spasoje");
+		mapa[0].put("lastname", "Malbaski");
+		mapa[0].put("age", 26);
+		mapa[0].put("city", "Novi Sad");
+		
+		mapa[1].put("firstname", "Aleksandra");
+		mapa[1].put("lastname", "Simic");
+		mapa[1].put("age", 27);
+		mapa[1].put("city", "Novi Sad");
+		
+		mapa[2].put("firstname", "Boris");
+		mapa[2].put("lastname", "Cvijanovic");
+		mapa[2].put("age", 27);
+		mapa[2].put("city", "Novi Sad");
+		
+		
+		
+		
+	}
+
+}

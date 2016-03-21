@@ -1,0 +1,18 @@
+package l7Classes;
+
+public class Main {
+	
+	interface HelloWorld{
+		public void greet();
+		public void greetSomeone(String name);
+	}
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+	}
+
+}

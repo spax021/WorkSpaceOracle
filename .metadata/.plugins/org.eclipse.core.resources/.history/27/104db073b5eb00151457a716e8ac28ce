@@ -1,0 +1,14 @@
+package l6Objects;
+
+public class Bicycle {
+	  	private int cadence;
+	    private int gear;
+	    private int speed;
+	        
+	    private int id;
+	    
+	    private static int numberOfBicycles = 0;
+	    
+	    public Bicycle
+
+}

@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="oopConcepts.AcmeBicycle"/>
+<fullyQualifiedTypeName name="oopConcepts.BottleInterface"/>
+<fullyQualifiedTypeName name="oopConcepts.Bottle"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="l2languageBasics.Main"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
+<fullyQualifiedTypeName name="l6Objects.Bicycle"/>
+<fullyQualifiedTypeName name="l6Objects.Karta"/>
+<fullyQualifiedTypeName name="l6Objects.Spil"/>
+<fullyQualifiedTypeName name="l6Objects.Rectangle"/>
+<fullyQualifiedTypeName name="l6Objects.NumberHolder"/>
+<fullyQualifiedTypeName name="java.lang.Number"/>
+<fullyQualifiedTypeName name="mojePiskarije.Number"/>
+<fullyQualifiedTypeName name="EnglishGreating"/>
+<fullyQualifiedTypeName name="l7Classes.Main.HelloWorld"/>
+<fullyQualifiedTypeName name="l7Classes.Main"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="l7Classes.Person.CheckPerson"/>
+<fullyQualifiedTypeName name="l7Classes.Person.Sex"/>
+<fullyQualifiedTypeName name="l8Interface.OperateCar"/>
+<fullyQualifiedTypeName name="l8Interface.Relatable"/>
+<fullyQualifiedTypeName name="java.awt.Point"/>
+<fullyQualifiedTypeName name="l8Interface.RectanglePlus"/>
+</qualifiedTypeNameHistroy>
