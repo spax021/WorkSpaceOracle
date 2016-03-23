@@ -1,0 +1,26 @@
+package l11CharAndStrings;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char uniChar = '\u03A9';
+		System.out.println(uniChar);
+		
+		String string = "U d o v i c a B a c i V o d u";
+		int len = string.length();
+		char[] tempCharString = new char[len];
+		char[] charString = new char[len];
+		
+		for(int i=0; i<len; i++){
+			tempCharString[i] = string.charAt(i);
+		}
+		
+		for(int j=0; j<len; j++){
+			charString[j] = tempCharString[len - 1 - j];
+		}
+		
+		String palindrom = new String(charString);
+		System.out.println(palindrom);
+	}
+
+}

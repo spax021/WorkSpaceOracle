@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="oopConcepts.AcmeBicycle"/>
 <fullyQualifiedTypeName name="oopConcepts.BottleInterface"/>
 <fullyQualifiedTypeName name="oopConcepts.Bottle"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="l2languageBasics.Main"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
@@ -24,4 +23,17 @@
 <fullyQualifiedTypeName name="l8Interface.Relatable"/>
 <fullyQualifiedTypeName name="java.awt.Point"/>
 <fullyQualifiedTypeName name="l8Interface.RectanglePlus"/>
+<fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="l8Interface.Main"/>
+<fullyQualifiedTypeName name="l9Inheritance.RoadBike"/>
+<fullyQualifiedTypeName name="l9Inheritance.MountainBike"/>
+<fullyQualifiedTypeName name="l9Inheritance.SubClass"/>
+<fullyQualifiedTypeName name="l9Inheritance.SuperClass"/>
+<fullyQualifiedTypeName name="l9Inheritance.Bicycle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="l9Abstract.GraphicObject"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package l11CharAndStrings;
+
+public class Domaci {
+
+	public static void main(String[] args) {
+//		What is the initial capacity of the following string builder?  16
+		StringBuilder sb = new StringBuilder("Able was I ere I saw Elba."); // 26
+
+		String hannah = "Did Hannah see bees? Hannah did.";
+		
+//		What is the value displayed by the expression hannah.length()?  
+//		What is the value returned by the method call hannah.charAt(12)?
+//		Write an expression that refers to the letter b in the string referred to by hannah.
+		
+		System.out.println(hannah.length());
+		System.out.println(hannah.charAt(12));
+		
+	}
+
+}

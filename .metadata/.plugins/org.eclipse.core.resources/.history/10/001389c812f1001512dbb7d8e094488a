@@ -1,0 +1,14 @@
+package l10Numbers;
+
+import static java.lang.Math.*;
+
+public class BeyondBasic {
+
+	public static void main(String[] args) {
+
+		int angle = 45;
+		
+		System.out.println(cos(angle));
+	}
+
+}

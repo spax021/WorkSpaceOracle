@@ -1,0 +1,19 @@
+package l10Numbers;
+
+public class Domaci {
+
+	public static void main(String[] args) {
+		
+		int i = 65;
+		
+		System.out.println(Integer.toString(i));
+		
+		String s = "45";
+		
+		int o = Integer.parseInt(s);
+		
+		
+		
+	}
+
+}

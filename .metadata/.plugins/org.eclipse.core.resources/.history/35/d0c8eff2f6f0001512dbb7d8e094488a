@@ -1,0 +1,10 @@
+package l9Abstract;
+
+public class Domaci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

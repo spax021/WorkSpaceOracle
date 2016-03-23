@@ -1,0 +1,14 @@
+package l10Numbers;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int i = 2500;
+		
+		double d = 25.01;
+		
+		System.out.printf("%d", i);
+	}
+
+}

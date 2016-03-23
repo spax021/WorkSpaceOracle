@@ -1,0 +1,13 @@
+package l11CharAndStrings;
+
+public class Domaci {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder("Able was I ere I saw Elba.");
+		System.out.println(sb.length());
+		
+		
+	}
+
+}

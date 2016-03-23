@@ -1,0 +1,19 @@
+package l9Inheritance;
+
+public class MountainBike extends Bicycle{
+
+	public int seatHeight;
+	
+	public MountainBike(int startCadence, int startGear, int startSpeed, int startHeight) {
+		super(startCadence, startGear, startSpeed);
+		seatHeight = startHeight;
+	}
+	
+	public void setHeight(int newValue){
+		seatHeight = newValue;
+	}
+
+	public void speedUp(int newValue){
+		speed += newValue;
+	}
+}

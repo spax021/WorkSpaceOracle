@@ -1,0 +1,10 @@
+package l11CharAndStrings;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char uniChar = '\u03A9';
+		System.out.println(uniChar);
+	}
+
+}

@@ -1,0 +1,19 @@
+package l9Inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Bicycle bike1, bike2, bike3;
+		
+		bike1 = new Bicycle(10, 20, 30);
+		bike2 = new MountainBike(20, 30, 40, 50, "Dual");
+		bike3 = new RoadBike(30, 40, 50, 60);
+		
+		bike1.printDescription();
+		bike2.printDescription();
+		bike3.printDescription();
+		
+	}
+
+}

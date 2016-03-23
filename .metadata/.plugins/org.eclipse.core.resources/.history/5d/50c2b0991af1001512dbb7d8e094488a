@@ -1,0 +1,24 @@
+package l10Numbers;
+
+public class Domaci {
+
+	public static void main(String[] args) {
+		
+		int i = 65;
+		
+		System.out.println(Integer.toHexString(i));
+		
+		String s = "230";
+		
+		System.out.println(Integer.valueOf(s, 5));
+//		What Double method can you use to detect whether a floating-point number has the special value Not a Number (NaN)?
+//		isNaN
+		
+//		System.out.println(Integer.valueOf(1).equals(Long.valueOf(1)));
+//		False, cant compare 2 diferent types, Integer and Long
+		
+		
+		
+	}
+
+}
