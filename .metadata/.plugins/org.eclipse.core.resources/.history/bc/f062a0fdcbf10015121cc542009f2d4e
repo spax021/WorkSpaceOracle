@@ -1,0 +1,16 @@
+package games;
+
+import source.Od1do2000Code;
+
+public class Od1do2000 {
+
+	public static void main(String[] args) {
+		
+		Od1do2000Code number = new Od1do2000Code();
+		
+		number.ispis();
+		number.proveraLucky();
+
+	}
+
+}

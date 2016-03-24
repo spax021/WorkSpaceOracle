@@ -16,7 +16,6 @@
 <fullyQualifiedTypeName name="EnglishGreating"/>
 <fullyQualifiedTypeName name="l7Classes.Main.HelloWorld"/>
 <fullyQualifiedTypeName name="l7Classes.Main"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="l7Classes.Person.CheckPerson"/>
 <fullyQualifiedTypeName name="l7Classes.Person.Sex"/>
 <fullyQualifiedTypeName name="l8Interface.OperateCar"/>
@@ -36,4 +35,10 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="l12Generics.Pair"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="l12Generics.Pair.Comparable"/>
+<fullyQualifiedTypeName name="javax.swing.text.Utilities"/>
+<fullyQualifiedTypeName name="source.RockPaperScissorsCode"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

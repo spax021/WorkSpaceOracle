@@ -1,0 +1,16 @@
+package main;
+import source.RockPaperScissorsCode;
+
+public class RockPaperScissors {
+
+	
+	public static void main(String[] args) {
+		
+		RockPaperScissorsCode game = new RockPaperScissorsCode();
+		
+		game.gameName();
+		game.choice();
+		
+	}
+
+}

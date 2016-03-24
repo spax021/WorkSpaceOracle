@@ -1,0 +1,16 @@
+package l12Generics;
+
+import javax.swing.Box;
+
+public class Pair {
+
+	
+	public static void main(String[] args) {
+ 
+		
+		
+		
+		
+	}
+
+}
