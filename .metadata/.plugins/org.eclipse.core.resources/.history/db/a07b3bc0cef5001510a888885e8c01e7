@@ -1,0 +1,8 @@
+package l14Exceptions;
+
+public class Domaci {
+
+	String s1 = "a91eca2492ac84909953ef27040f9b61d8525f7ec5e89f6430319f49f9f823fe";
+	
+	
+}

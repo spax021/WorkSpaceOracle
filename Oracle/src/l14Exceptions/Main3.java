@@ -1,0 +1,28 @@
+package l14Exceptions;
+
+import l15Threads.Niti;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		
+		divideByZero(2);
+		
+	}
+
+	public static void divideByZero(int a){
+		try{
+		System.out.println(a/0);
+		}catch(ArithmeticException e){
+			System.out.println("To nece da moze.");
+			System.out.println(e.getMessage());
+			System.out.println(e.toString());
+		}
+		//just for fun, inserted from l15Threads package
+		finally{
+			Thread t1 = new Thread(new Niti("Spale"));
+			t1.start();
+		}
+	}
+	
+}

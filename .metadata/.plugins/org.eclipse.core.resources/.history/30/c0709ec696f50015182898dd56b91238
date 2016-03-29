@@ -1,0 +1,19 @@
+package l14Exceptions;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		
+		divideByZero(2);
+		
+	}
+
+	public static void divideByZero(int a){
+		try{
+		System.out.println(a/0);
+		}catch(ArithmeticException e){
+			
+		}
+	}
+	
+}

@@ -1,0 +1,23 @@
+package l15Threads;
+
+import java.util.*;
+//Runnable interface contains run() method, 
+public class Niti implements Runnable { //if you want thread to be working, you need to implement it with Runnable
+
+	String name;
+	int time;
+	Random r = new Random();
+	
+	public Niti(String s){
+		this.name = s;
+		this.time = r.nextInt(5000);
+	}
+	
+	public void run(){
+		try{
+			System.out.println(name + " is sleaping for " + time);
+			Thread.sleep(time);
+			System.out.println(name + " is done with sleeping");
+		}catch(Exception e){}
+	}
+}

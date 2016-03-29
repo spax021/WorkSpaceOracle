@@ -1,0 +1,14 @@
+package l14Exceptions;
+
+public class Domaci {
+
+	public static void main(String[] args) {
+		String s1 = "a91eca2492ac84909953ef27040f9b61d8525f7ec5e89f6430319f49f9f823fe";
+		
+		String s3 = "a91eca2492ac84909953ef27040f9b61d8525f7ec5e89f6430319f49f9f823fe";
+		if(s1.equals(s3))
+			System.out.println("ok");
+	}
+	
+	
+}
